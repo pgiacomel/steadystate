@@ -38,7 +38,7 @@ function [Time,Disp,Mu,sn,LS2,steady_state] = steadystate(deltaslip,min_LS2,delt
 %  steady_state: array of 1st steady-state points (microns) associated with a given moving slip window length LS2 used for the analysis 
 
 %% How to run the code:
-% To use the default input parameters:  [Time,Disp,Mu,sn,LS2,steady_state] = steadystate
+% To use the default input parameters:  [Time,Disp,Mu,sn,LS2,steady_state] = steadystate;
 
 % To enter customized parameters:
 % example1: change all default parameters: [Time,Disp,Mu,sn,LS2,steady_state] = steadystate(10,100,20,360);
