@@ -181,7 +181,7 @@ a = input('done(y/n)? \n\n','s');
           idx = extractfield(c_info,'DataIndex'); DataIndex = flip(idx)';                             %extract DataIndex info
           DataIndex                                                                                   %visualize DataIndex info 
           outputs = [exp.time(DataIndex) exp.disp(DataIndex) exp.mu(DataIndex) exp.sneff(DataIndex)]; %get coordinates in terms of time(t)-slip(x)-friction(y) of the selected data point
-          fprintf('[t,slip,mu,sn] = [%f, %f, %f, %f]\n', outputs')                                    %visualize coordinates in the command window
+          fprintf('[t,slip,mu,sneff] = [%f, %f, %f, %f]\n', outputs')                                    %visualize coordinates in the command window
 %    save('outputs.txt','outputs','-ascii','-append'); 
           disp('type clear all to reset the counter before starting a new analysis')
           save('outputs.txt','outputs','-ascii');                                                     %save file
