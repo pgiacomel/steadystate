@@ -1,5 +1,5 @@
 # steadystate
-MATLAB-based automated routine to detect the optimum combination of first new steady-state friction point following a velocity step and the associated slip window length to accurately operate a linear detrend starting from the new steady-state point. This preliminary operation is required to determine accurate rate- and state- friction parameter values from inverse modelling.
+MATLAB-based automated routine to determine the optimum combination of the first new steady-state friction point following a velocity step and the associated slip window length required to accurately operate a linear detrend starting from that point. This preliminary operation is required to determine accurate rate- and state- friction parameter values from inverse modelling.
 
 Branch main: contains 1) the code required to slice the friction tests into its single friction velocity steps (slicing_velsteps.m); 2) the main code to determine steady-state friction after the velocity steps (steadystate.m); 3) the subroutine of the the main code steadystate.m (getpoints_velstep.m).
 
