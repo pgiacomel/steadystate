@@ -17,6 +17,8 @@ Each sliced velocity step is graphed at the end of the slicing (friction vs. tim
 Branch Demo-tests: contains a .txt file to test the code slicing_velstep.m (TR2_exp013_sepiolite_to-be-sliced.txt) and n.5 single velocity steps that can be run directly with the code steadystate.m (i.e., velstep1,2,3_TR2_exp013_sepiolite.txt and velstep4,7_BRAVA_expb819_basalt_Giacomel_et_al_2021.txt).
 
 # Citing this work
-If you find these codes helpful and use them for your projects, please consider citing the following paper describing the underlying steady state method: 
+If you find these codes helpful and use them for your projects, please consider citing the following paper describing the underlying steady state method:
+
 Giacomel et al., steadystate: A MATLAB-based routine for determining steady-state friction conditions in the framework of rate- and state- friction analysis.
+
 Currently under review in GSA, Geosphere. 
