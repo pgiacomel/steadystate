@@ -19,6 +19,6 @@ Branch Demo-tests: contains a .txt file to test the code slicing_velstep.m (TR2_
 # Citing this work
 If you find these codes helpful and use them for your projects, please consider citing the following paper describing the underlying steady state method:
 
-Giacomel et al., steadystate: A MATLAB-based routine for determining steady-state friction conditions in the framework of rate- and state- friction analysis.
+Giacomel et al. steadystate: A MATLAB-based routine for determining steady-state friction conditions in the framework of rate- and state- friction analysis.
 
 Currently under review in GSA, Geosphere. 
