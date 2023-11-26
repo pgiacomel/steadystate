@@ -12,7 +12,7 @@ For customised input parameters and relative examples we refer to lines 44 to 63
 
 Since steadystate can process one velocity step at a time, it requires pre slicing of the friction datafile, which can be done using the script slicing_velsteps.m, also attached in the main branch. 
 This is a straightforward script that can be run like any other .m file.
-Each sliced velocity step is graphed at the end of the slicing (friction vs. time and friction vs. displacement curves) and stores Time, Displacement, Effective normal stress, and Friction arrays in a .txt file in the selected MATLAB path.
+Each sliced velocity step is graphed at the end of the slicing (friction vs. time and friction vs. displacement curves) and stored as Time, Displacement, Friction, and Effective normal stress arrays in a .txt file in the selected MATLAB path.
 
 Branch Demo-tests: contains a .txt file to test the code slicing_velstep.m (TR2_exp013_sepiolite_to-be-sliced.txt) and n.5 single velocity steps that can be run directly with the code steadystate.m (i.e., velstep1,2,3_TR2_exp013_sepiolite.txt and velstep4,7_BRAVA_expb819_basalt_Giacomel_et_al_2021.txt).
 
