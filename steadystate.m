@@ -118,9 +118,9 @@ function [Time,Disp,Mu,sneff,LS2,steady_state] = steadystate(min_LS2,max_LS2,del
 % do not input the arguments for the default settings:
 
 % EXAMPLE 2a: keep deltaslip as the default and change the others:
-% [Time,Disp,Mu,sneff,LS2,steady_state] = steadystate(10,100,20,[]) or
-% equivalently, [Time,Disp,Mu,sneff,LS2,steady_state] =
-% findsteadystate(10,100,20) 
+% [Time,Disp,Mu,sneff,LS2,steady_state] = steadystate(10,100,20,[]) 
+% or equivalently, 
+% [Time,Disp,Mu,sneff,LS2,steady_state] =steadystate(10,100,20) 
 
 % EXAMPLE 2b: change only deltaslip and keep the others as default: 
 % [Time,Disp,Mu,sneff,LS2,steady_state] = steadystate([],[],[],10);
