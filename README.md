@@ -8,7 +8,7 @@ It consists of two main files:
 the main script steadystate.m and its subscript getpoints_velstep.m.
 In order to run the routine, both files must be on the same MATLAB path. 
 The routine can be run using the default settings (recommended option) by typing steadystate in the MATLAB command window or by pressing Run in the EDITOR window of the steadystate.m file opened in MATLAB.
-The input and output parameters of steadystate.m are fully described in lines 20 to 41 of the m-file.
+The input and output parameters of steadystate.m are fully described in lines 43 to 88 of the m-file.
 For customised input parameters and relative examples we refer to lines 96 to 130 of steadystate.m. 
 
 Since steadystate can process only one velocity step at a time, it requires pre slicing of the friction datafile, which can be done using the script slicing_velsteps.m, also attached in the main branch. 
