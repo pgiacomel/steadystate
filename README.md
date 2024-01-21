@@ -15,7 +15,9 @@ Since steadystate can process only one velocity step at a time, it requires pre 
 This is a straightforward, standalone script that can be run like any other m-file.
 Each sliced velocity step is graphed at the end of the slicing (friction vs. time and friction vs. displacement curves) and stored as Time, Displacement, Friction, and Effective normal stress arrays in a .txt file automatically generated in the selected MATLAB path.
 
-2) Branch Demo-velocity-stepping-tests: contains a .txt file to test the code slicing_velstep.m (i.e., TR2_exp013_sepiolite_to-be-sliced.txt) and n.3 single velocity steps that can be run directly with the code steadystate.m, of which n.1 is synthetic (i.e., synthetic_D_{RS2}_500microns.txt) and n.2 are from experimental datasets of different rock deformation laboratories (i.e., velstep3_TR2_exp013_sepiolite.txt; velstep7_BRAVA_expb819_basalt.txt). 
+2) Branch Demo-velocity-stepping-tests:
+
+It contains an experimental friction dataset with multiple velocity steps to test the code slicing_velstep.m (i.e., TR2_exp013_sepiolite_to-be-sliced.txt) and n.3 single velocity steps that can be run directly with the code steadystate.m, of which n.1 is synthetic (i.e., synthetic_D_{RS2}_500microns.txt) and n.2 are from experimental datasets of different rock deformation laboratories (i.e., velstep3_TR2_exp013_sepiolite.txt; velstep7_BRAVA_expb819_basalt.txt). 
 
 
 # Citing this work
