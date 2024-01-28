@@ -17,7 +17,9 @@ Each sliced velocity step is graphed at the end of the slicing (friction vs. tim
 
 2) Branch "Demo-velocity-stepping-tests":
 
-It contains an experimental friction dataset with multiple velocity steps to test the code slicing_velstep.m (i.e., TR2_exp013_sepiolite_to-be-sliced.txt) and n.3 single velocity steps that can be run directly with the code steadystate.m, of which n.1 is synthetic (i.e., synthetic_D_{RS2}_500microns.txt) and n.2 are from experimental datasets of different rock deformation laboratories (i.e., velstep3_TR2_exp013_sepiolite.txt; velstep4_BRAVA_expb819_basalt.txt). All the files here attached are incorporated in the manuscript describing the steadystate routine: "steadystate: A MATLAB-based routine for determining steady-state friction conditions in the framework of rate- and state- friction analysis." by Giacomel, P., Faulkner, D.R., Lambert, V., Allen, M.J. (2024) - GSA, Geosphere.
+It contains an experimental friction dataset with multiple velocity steps to test the code slicing_velstep.m (i.e., TR2_exp013_sepiolite_to-be-sliced.txt) and n.3 single velocity steps that can be run directly with the code steadystate.m, of which n.1 is synthetic (i.e., synthetic_D_{RS2}_500microns.txt) and n.2 are from experimental datasets of different rock deformation laboratories (i.e., velstep3_TR2_exp013_sepiolite.txt; velstep4_BRAVA_expb819_basalt.txt).
+
+All the files here attached are incorporated in the manuscript describing the steadystate routine: "steadystate: A MATLAB-based routine for determining steady-state friction conditions in the framework of rate- and state- friction analysis." by Giacomel, P., Faulkner, D.R., Lambert, V., Allen, M.J. (2024) - GSA, Geosphere.
 
 
 # Citing this work
