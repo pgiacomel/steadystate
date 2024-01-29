@@ -5,7 +5,7 @@ function [Time,Disp,Mu,sneff,LS2,steady_state] = steadystate(min_LS2,max_LS2,del
 % Last modified by P. Giacomel (piercarlo.giacomel@liverpool.ac.uk) 
 % 29-Jan-2024 08:18:42 (UTC +0)
 %
-% This routine is recommended especially for velocity steps > 500 microns
+% This routine is recommended especially for velocity steps > 500 microns length
 % The routine returns accurate outputs provided that steady-state 
 % conditions have been reached before the velocity step.
 %
