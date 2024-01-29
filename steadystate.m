@@ -3,12 +3,12 @@ function [Time,Disp,Mu,sneff,LS2,steady_state] = steadystate(min_LS2,max_LS2,del
 %% FUNCTION TO DETERMINE THE 1st STEADY-STATE POINT FOLLOWING A FRICTION VELOCITY STEP
 %% and the associated window length starting that point to operate linear detrend
 % Last modified by P. Giacomel (piercarlo.giacomel@liverpool.ac.uk) 
-% 20-Jan-2024 16:23:26 (UTC +0)
-
+% 29-Jan-2024 08:18:42 (UTC +0)
+%
 % This routine is recommended especially for velocity steps > 500 microns
 % The routine returns accurate outputs provided that steady-state 
 % conditions have been reached before the velocity step.
-
+%
 %Please cite:
 %%%Giacomel et al., 2024 - GSA, Geosphere
 %"steadystate: A MATLAB-based routine for determining
@@ -132,9 +132,10 @@ function [Time,Disp,Mu,sneff,LS2,steady_state] = steadystate(min_LS2,max_LS2,del
 
 %% Upload experimental parameters within the vel step, i.e.,DataIndex, Time, Displacement, Friction and normal stress 
 
-a = input('Have you already sliced your experimental data into single velocity steps(y/n)? \n','s');
+disp('Have you already sliced your experimental data into'); 
+a = input("single velocity steps using 'slicing_velsteps.m (y/n)? \n",'s');
 if a=='n'
-   error('Slice your experiments e.g. with slicing_velsteps.m before running the program')
+   error("Slice your experiments with 'slicing_velsteps.m' before running the program")
 end
 %%% Import single velocity step
 if a=='y' 
