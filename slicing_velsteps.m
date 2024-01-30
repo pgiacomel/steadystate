@@ -4,7 +4,7 @@
 % 20-Jan-2024 17:31:35 (UTC +0)
 %
 % Please follow the instructions progressively appearing
-% in the Matlab Command Window
+% in the Command Window
 
 clearvars; clc; close
 
