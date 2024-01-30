@@ -2,6 +2,9 @@
 %% SINGLE VELOCITY STEPS/SLIDE-HOLD-SLIDES AND SAVE THEM IN .txt FORMAT  
 % Last modified by P. Giacomel (piercarlo.giacomel@liverpool.ac.uk)
 % 20-Jan-2024 17:31:35 (UTC +0)
+%
+% Please follow the instructions progressively appearing
+% in the Matlab Command Window
 
 clearvars; clc; close
 
