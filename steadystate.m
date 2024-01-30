@@ -132,8 +132,8 @@ function [Time,Disp,Mu,sneff,LS2,steady_state] = steadystate(min_LS2,max_LS2,del
 
 %% Upload experimental parameters within the vel step, i.e.,DataIndex, Time, Displacement, Friction and normal stress 
 
-disp('Have you already sliced your experimental data into'); 
-a = input("single velocity steps using 'slicing_velsteps.m (y/n)? \n",'s');
+disp('Have you already sliced your experimental data into its'); 
+a = input("single velocity steps (recommended using slicing_velsteps.m) (y/n)? \n",'s');
 if a=='n'
    error("Slice your experiments with 'slicing_velsteps.m' before running the program")
 end
