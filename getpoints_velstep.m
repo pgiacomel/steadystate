@@ -19,7 +19,7 @@ close all;fclose all;clc;
 format long
 
 % GUI file get
-[FileName,PathName] = uigetfile('Select data file.txt'); 
+[FileName,PathName] = uigetfile('Select velocity step.txt'); 
 
 % tab delimeter (see string formatting page for more detail)
 delimiter = '\t';
