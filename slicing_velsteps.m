@@ -7,6 +7,7 @@
 % in the Command Window
 
 clearvars; clc; close all;
+disp('slicing_velsteps.m');
 
 %% import raw data
 format long
