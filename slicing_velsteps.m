@@ -6,7 +6,7 @@
 % Please follow the instructions progressively appearing
 % in the Command Window
 
-clearvars; clc; close
+clearvars; clc; close all;
 
 %% import raw data
 format long
