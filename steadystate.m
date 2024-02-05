@@ -9,11 +9,11 @@ function [Time,Disp,Mu,sneff,LS2,steady_state] = steadystate(min_LS2,max_LS2,del
 % The routine returns accurate outputs provided that steady-state 
 % conditions have been reached before the velocity step.
 %
-%Please cite:
-%%%Giacomel et al., 2024 - GSA, Geosphere
-%"steadystate: A MATLAB-based routine for determining
-%steady-state friction conditions in the framework of rate- and state-
-%friction analysis"%
+% Please cite:
+% Giacomel et al., 2024 - GSA, Geosphere
+% "steadystate: A MATLAB-based routine for determining
+% steady-state friction conditions in the framework of rate- and state-
+% friction analysis"%
 
 %% Program description
 
@@ -131,6 +131,7 @@ function [Time,Disp,Mu,sneff,LS2,steady_state] = steadystate(min_LS2,max_LS2,del
 
 
 %% Upload experimental parameters within the vel step, i.e.,DataIndex, Time, Displacement, Friction and normal stress 
+clearvars; close all;clc;
 
 disp("This routine can process only one velocity step at a time.");
 disp("It requires a velocity step in txt-file as follows:");
