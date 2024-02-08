@@ -131,7 +131,7 @@ function [Time,Disp,Mu,sneff,LS2,steady_state] = steadystate(min_LS2,max_LS2,del
 
 
 %% Upload experimental parameters within the vel step, i.e.,DataIndex, Time, Displacement, Friction and normal stress 
-clearvars; close all;clc;
+close all;clc;
 
 disp('steadystate.m');
 disp("This routine can process only one velocity step at a time.");
