@@ -13,7 +13,7 @@ function [Time,Disp,Mu,sneff,LS2,steady_state] = steadystate(min_LS2,max_LS2,del
 % Giacomel et al., 2024 - GSA, Geosphere
 % "steadystate: A MATLAB-based routine for determining
 % steady-state friction conditions in the framework of rate- and state-
-% friction analysis"%
+% friction analysis"
 
 %% Program description
 
