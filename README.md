@@ -23,8 +23,7 @@ All the files here attached are incorporated in the manuscript describing the st
 
 
 # Citing this work
-If you find these codes helpful and use them for your projects, please consider citing the following paper describing the underlying steady state method:
+If you find these codes helpful and use them for your projects, please consider citing the following paper describing the underlying steady-state method:
 
-Giacomel et al., 2024 - GSA, Geosphere 
-"steadystate: A MATLAB-based routine for determining steady-state friction conditions in the framework of rate- and state- friction analysis."
+Giacomel, P., Faulkner, D. R., Lambert, V., and Allen, M. J., 2024, steadystate: A MATLAB-based routine for determining steady-state friction conditions in the framework of rate-and-state friction analysis: Geosphere. https://doi.org/10.1130/GES02739.1
 
